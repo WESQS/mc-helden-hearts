@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "id": "heldenhearts",
+  "version": "${version}",
+  "name": "MC Helden Hearts",
+  "description": "Zwei Heldenherzen, 24-Stunden-Bann und 20% Loot-Rettung.",
+  "authors": ["WESQS"],
+  "license": "MIT",
+  "environment": "server",
+  "entrypoints": { "main": ["de.wesqs.heldenhearts.HeldenHearts"] },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.1",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
